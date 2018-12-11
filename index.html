@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body ng-app="comments">
+	<input type="text" />
+	<button type="button">Submit</button>
+	<div ng-controller="CommentController">
+		<ul ng-repeat="comment in comments">
+			<li>{{comment}}</li>
+		</ul>
+	</div>
+
+	<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="app/comments.js"></script>
+	<script type="text/javascript" src="app/commentController.js"></script>
+</body>
+</html>

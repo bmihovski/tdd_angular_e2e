@@ -8,7 +8,7 @@ describe('Given I am posting a new comment', function() {
 		});
 
 		it('Should then add the comment', function() {
-			var comments = element.all(by.repeater('comment in comments')).first();
+			var comment = element.all(by.repeater('comment in comments')).first();
 			expect(comment.getText()).toBe('a comment');
 		});
 	});
