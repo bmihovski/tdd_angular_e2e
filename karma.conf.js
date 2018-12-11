@@ -13,10 +13,10 @@ module.exports = function(config) {
 		frameworks : [ 'jasmine' ],
 
 		// list of files / patterns to load in the browser
-		files : [ 'app/comments.js',
+		files : [ 'node_modules/angular/angular.js',
+		    	'node_modules/angular-mocks/angular-mocks.js',
+		    	'app/comments.js',
 				'app/commentController.js',
-				'node_modules/angular/angular.js',
-				'node_modules/angular-mocks/angular-mocks.js',
 				'spec/unit/**/*.js' ],
 
 		// list of files / patterns to exclude
