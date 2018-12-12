@@ -10,6 +10,7 @@ describe('', function() {
 		scope.add('any comment');
 	});
 	it('', function() {
-		expect(scope.comments[0]).toBe('any comment');
+		var firstComment = scope.comments[0];
+		expect(firstComment.value).toBe('any comment');
 	})
 });
