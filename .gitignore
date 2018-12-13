@@ -1,0 +1,7 @@
+/node_modules/
+/.project
+/.tern-project
+/package-lock.json
+/package.json
+/yarn-error.log
+/yarn.lock
