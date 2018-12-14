@@ -21,7 +21,7 @@ describe('Given I am posting a new comment', function() {
 			// Act
 			likeButton.click();
 		});
-		it('should increase the number of likes to one', function() {
+		it('Should increase the number of likes to one', function() {
 			// Assert
 			var commentLikes = firstComment.element(by.binding('comment.likes'));
 			expect(commentLikes.getText()).toBe('1');
